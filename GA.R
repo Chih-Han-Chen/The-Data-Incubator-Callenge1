@@ -7,8 +7,7 @@ for(i_cate1 in 1:4){
   
   ###################################################SET UPS
   OF_data<-readRDS("/home/hans/Desktop/GAproject/OF_ready_data.rds")
-  #USDA_data<-readRDS("/home/hans/Desktop/GAproject/USDA_ready_data.rds")
-  #Tesco_data<-readRDS("/home/hans/Desktop/GAproject/Tesco_ready_data.rds")
+
   OF_data[[1]][OF_data[[1]][,1]==i_cate1,]
   i_cate<-1
   ####behaviour gausian
@@ -51,8 +50,7 @@ f <- function(z){
   W<-c(1,1,1,1,1)
   ###################################################SET UPS
   OF_data<-readRDS("/home/hans/Desktop/GAproject/OF_ready_data.rds")
-  #USDA_data<-readRDS("/home/hans/Desktop/GAproject/USDA_ready_data.rds")
-  #Tesco_data<-readRDS("/home/hans/Desktop/GAproject/Tesco_ready_data.rds")
+
   OF_data[[1]][OF_data[[1]][,1]==i_cate1,]
   i_cate<-1
   ####behaviour gausian
